@@ -1,0 +1,45 @@
+https://www.youtube.com/watch?v=N2ucRai4iJE
+esc+:+wq
+
+my flutter path
+/var/lib/snapd/snap/bin
+
+to add to path variable:
+(in zsh)
+vim $HOME/.zshrc
+
+$HOME - /home/nidhi
+
+
+
+    Open terminal.
+
+    vim $HOME/.zshrc
+
+    Press "I" key for going to insert mode.
+
+    add the following line in the opened file:
+
+    export PATH="$PATH:/YOUR_FLUTTER_DIR/flutter/bin"
+
+    Press "Esc" then write :wq! in terminal and press enter to exit vim.
+
+    Reopen the terminal and check "flutter doctor"
+
+
+CHROME EXECUTABLE PATH:
+/usr/share/applications
+
+
+
+BEST FLUTTER DOWNLOAD TOOL
+https://techblog.dev/posts/2022/08/setting-up-a-flutter-development-environment-on-ubuntu-manjaro-arch-linux-without-installing-android-studio/
+
+
+dart pub cache repair
+dart pub cache clear
+deleting /home/nidhi/.dartServer
+
+https://www.youtube.com/watch?v=RTheN4kXJc0
+unable to find bundled java version
+Works!
