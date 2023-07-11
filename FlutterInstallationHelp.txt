@@ -1,6 +1,9 @@
 https://www.youtube.com/watch?v=N2ucRai4iJE
 esc+:+wq
 
+how to create backup of file
+sudo mv /etc/apt/preferences.d/nosnap.pref ~/Documents/nosnap.backup
+
 my flutter path
 /var/lib/snapd/snap/bin
 
