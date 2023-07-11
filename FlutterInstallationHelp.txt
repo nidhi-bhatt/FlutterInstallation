@@ -32,6 +32,7 @@ $HOME - /home/nidhi
 
 CHROME EXECUTABLE PATH:
 /usr/share/applications
+export CHROME_EXECUTABLE=/opt/google/chrome/chrome
 
 
 
@@ -46,3 +47,21 @@ deleting /home/nidhi/.dartServer
 https://www.youtube.com/watch?v=RTheN4kXJc0
 unable to find bundled java version
 Works!
+
+
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+Then I installed it using the Linux beta command (right click on the downloaded file, install using Linux beta). It installed it to this directory:
+
+/usr/bin/
+
+(Alternatively, for the install, I could've used this command:
+
+sudo apt install ./google-chrome-stable_current_amd64.deb)
+
+I ran flutter doctor -v and now it finds Chrome.
+
+
+
+https://stackoverflow.com/questions/59030136/chrome-not-showing-up-in-vscode-manjaro-linux
+
