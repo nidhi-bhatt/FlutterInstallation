@@ -65,3 +65,18 @@ I ran flutter doctor -v and now it finds Chrome.
 
 https://stackoverflow.com/questions/59030136/chrome-not-showing-up-in-vscode-manjaro-linux
 
+sudo apt install refind
+sudo refind-install
+then boot options mei jaake change 
+to customise it 
+locate refind directory - /boot/EFI/refind
+create a folder called themes
+git clone https://github.com/Pr0cella/rEFInd-glassy.git
+add include themes/rEFInd-glassy/theme.conf at end of refind.conf
+You may need to change the default resolution of the rEFInd menu (see refind.conf).
+
+The background can easily be replaced by any .png-file with a resolution of 1920x1080.
+
+Entries should be autodetected and shown with the proper icons.
+
+Manual entries can be done via menuentry option (see refind.conf for examples).
